@@ -2,7 +2,7 @@
 lock '3.5.0'
 
 set :application, 'rims'
-set :repo_url, 'git@github.com:DamageStudios/rims.git'
+set :repo_url, 'git@github.com:rvan1/rims.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
