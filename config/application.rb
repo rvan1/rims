@@ -72,5 +72,8 @@ module Rims
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    config.active_record.raise_in_transactional_callbacks = true
+    
   end
 end
