@@ -51,8 +51,10 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: <%= Rails.application.engine_name.gsub(/_application/,'').downcase %>_production
+  database: rims_prod
   pool: 5
   username: rims
   password: rimspwd
+  host: localhost
+  port: 5432
   min_messages: warning
